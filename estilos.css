@@ -1,0 +1,60 @@
+body{
+    background-color:#121212;
+}
+
+html{
+    font-family:'Courier New', Courier, monospace;
+}
+.btn{
+    padding: 32px;
+    border-radius:50%;
+}
+
+#azul{
+    background-color: blue;
+}
+
+#ama{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
+}
+#verd{
+    background-color: green;
+}
+
+.container{
+    padding:30px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: gray;
+}
+
+#jogar{
+margin-left: 50%;
+transform: translate(-50%,50%);
+cursor: pointer;
+padding-left:4%;
+padding-top: 1%;
+padding-bottom: 1%;
+padding-right:4%;
+}
+
+#cabeca > p{ 
+    background-color: blueviolet;
+    margin:0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px 20px 0 0;
+}
+
+p{
+    font-size: 150%;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Genius</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body id="corpo" onload="Pontos()">
+        <div class="container">
+        <header  id="cabeca">
+            <p id="score">Max-Score:</p>
+        </header>
+        <audio src="audio/mi.mp3" id="adAzul"></audio>
+        <audio src="audio/fa.mp3" id="adAma"></audio>
+        <audio src="audio/sol.mp3" id="adRed"></audio>
+        <audio src="audio/la.mp3" id="adVerd"></audio>
+
+
+        <h1 id="texto" style="color:white">Ginius!!</h1>
+        <button class="btn" id="azul" onclick="addAzul()"></button>
+        <button class="btn" id="ama" onclick="addAma()"></button>
+        <button class="btn" id="red" onclick="addRed()"></button>
+        <button class="btn" id="verd" onclick="addVerd()"></button>
+<br>
+        <button onclick="Rodar()" id="jogar">Jogar</button>
+        </div>
+        <script src="codeGame.js"></script>
+    </body>
+</html>
